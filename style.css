@@ -147,10 +147,28 @@ button, input, optgroup, select, textarea {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    width: 50%;
+    width: 75%;
     margin-right: -15px;
     margin-left: -15px;
 }
+
+@media only screen and (max-width: 650px) {
+    .form-row{
+        flex-direction: column;
+    }
+    .column-auto{
+        width: 100%;
+    }
+
+    form{
+        height: max-content;
+    }
+
+    .card-container{
+        height: max-content;
+    }
+}
+
 
 .justify-content-center{
     justify-content: center;
