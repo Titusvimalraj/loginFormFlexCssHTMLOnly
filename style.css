@@ -162,11 +162,28 @@ button, input, optgroup, select, textarea {
 
     form{
         height: max-content;
+        padding: 1%;
     }
 
     .card-container{
         height: max-content;
+        padding:2%;
     }
+
+    section{
+        height: max-content;
+    }
+
+    body{
+        padding: 1%;
+    }
+
+    main{
+        height: max-content;
+    }
+
+
+
 }
 
 
